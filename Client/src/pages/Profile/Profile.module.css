@@ -1,0 +1,123 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userBlock {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.avatarBlock {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.avatarBlock h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.avatarSide {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.btnSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uploadBtn {
+    padding: 12px 25px;
+    border-radius: 20px;
+    background: #09d2b4;
+    font-size: 16px;
+    font-weight: 700;
+    color: #04212d;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+}
+
+.deleteBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 12px 25px;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    color: #04212d;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    /* border-bottom: 1px solid white; */
+    padding: 12px 0;
+    text-align: start
+}
+
+.info input {
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #09d2b4;
+    padding: 10px 16px;
+    border-radius: 20px;
+    color: white;
+    height: 48px;
+    margin: 2px 2px;
+}
+
+.info input:focus {
+    outline: 2px solid #09d2b4;
+}
+
+.info label {
+    margin-left: 18px;
+    padding: 10px 0 4px 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.info label:first-child {
+    padding: 0px 0 4px 0;
+}
+
+.saveBtn {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border-radius: 20px;
+    background: #09d2b4;
+    font-size: 16px;
+    font-weight: 700;
+    color: #04212d;
+    cursor: pointer;
+}
+
+.imageSizeInfo {
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.25);
+    font-weight: 600;
+}
