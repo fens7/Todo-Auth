@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Todo-Auth/static/css/main.d853f4e2.css",
+    "main.js": "/Todo-Auth/static/js/main.12765ed4.js",
+    "index.html": "/Todo-Auth/index.html",
+    "main.d853f4e2.css.map": "/Todo-Auth/static/css/main.d853f4e2.css.map",
+    "main.12765ed4.js.map": "/Todo-Auth/static/js/main.12765ed4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d853f4e2.css",
+    "static/js/main.12765ed4.js"
+  ]
+}
