@@ -12,13 +12,6 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    /* padding: 10px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    flex-grow: 1; */
 }
 
 .todoContainer h1 {
@@ -44,12 +37,11 @@
 
 .description {
     width: 100%;
-    text-overflow: ellipsis;
     height: 40px;
     text-overflow: ellipsis;
     overflow: hidden;
     font-size: 17px;
-    padding-left: 10px;
+    margin: 0 10px;
     text-align: start;
     display: flex;
     align-items: center;
@@ -106,7 +98,6 @@
 }
 
 .interaction {
-    width: 100%;
     display: flex;
     position: relative;
 }
@@ -183,12 +174,6 @@ button:disabled {
 }
 
 .page .activePage {
-    /* margin: 0 4px;
-    background: #181a1a;
-    padding: 7px 12px;
-    cursor: pointer;
-    border-radius: 50%;
-    font-size: 14px; */
     background: #181a1a;
     color: white;
     cursor: pointer;
@@ -196,7 +181,6 @@ button:disabled {
 }
 
 .sortWrapper {
-    /* border-top: 1px solid white;  */
     width: 100%;
     display: flex;
     align-items: center;
@@ -210,17 +194,6 @@ button:disabled {
     font-size: 17px;
 }
 
-/* width: 100%;
-text-overflow: ellipsis;
-height: 40px;
-text-overflow: ellipsis;
-overflow: hidden;
-font-size: 17px;
-padding-left: 10px;
-text-align: start;
-display: flex;
-align-items: center; */
-
 .sortWrapper button {
     margin: 0 10px;
     background: transparent;
@@ -228,4 +201,50 @@ align-items: center; */
     font-size: 14px;
     font-weight: 300;
     cursor: pointer;
+}
+
+@media (max-width: 490px) {
+    .todoContainer h1 {
+        font-size: 45px;
+    }
+    .saveBtn {
+        font-size: 13px;
+    }
+    .addInput {
+        width: 270px;
+        font-size: 14px;
+    }
+    .addBtn {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+    .list {
+        font-size: 13px;
+        width: 360px;
+    }
+    .description,
+    .edit {
+        font-size: 13px;
+    }
+    .btns {
+        width: 130px;
+        font-size: 19px;
+    }
+    .description {
+        overflow: scroll;
+    }
+    .sortWrapper {
+        font-size: 12px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 50px;
+    }
+    .sortWrapper button {
+        font-size: 15px;
+    }
+    .quantity {
+        font-size: 12px;
+        right: 85px;
+        top: 40px;
+    }
 }
